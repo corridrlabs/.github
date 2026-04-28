@@ -1,11 +1,20 @@
 <svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Corridor Banner</title>
-  <desc id="desc">Corridor banner with official landing wordmark and product tagline</desc>
+  <desc id="desc">Corridor banner with landing-style logo and product tagline</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0B1220"/>
       <stop offset="0.55" stop-color="#111B2E"/>
       <stop offset="1" stop-color="#1A2D4A"/>
+    </linearGradient>
+    <linearGradient id="markBg" x1="66" y1="56" x2="256" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="0.55" stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="154" y1="92" x2="154" y2="206" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.20"/>
     </linearGradient>
   </defs>
 
@@ -13,8 +22,18 @@
   <circle cx="1110" cy="-40" r="220" fill="#38BDF8" fill-opacity="0.10"/>
   <circle cx="104" cy="338" r="160" fill="#3B82F6" fill-opacity="0.12"/>
 
-  <image href="corridor-landing-wordmark.svg" x="74" y="88" width="540" height="132" preserveAspectRatio="xMinYMid meet"/>
+  <rect x="56" y="56" width="190" height="190" rx="48" fill="url(#markBg)"/>
+  <path d="M192 92C181 83 166 76 150 76C119 76 94 101 94 132C94 163 119 188 150 188C167 188 181 181 192 172" stroke="white" stroke-width="24" stroke-linecap="round"/>
+  <rect x="136" y="96" width="9" height="90" rx="4.5" fill="url(#beam)"/>
+  <rect x="157" y="96" width="9" height="90" rx="4.5" fill="url(#beam)"/>
+  <path d="M146 186L151 114L156 186H146Z" fill="#E0F2FE"/>
+  <path d="M151 114L170 95L176 101L151 126L126 101L132 95L151 114Z" fill="white"/>
 
-  <text x="78" y="276" fill="#93C5FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="44" font-weight="700">Run your payments in one place</text>
-  <text x="78" y="316" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="500">Open SDKs • Docs • MCP Tools • Infrastructure for modern fintech teams</text>
+  <g transform="translate(276 60)">
+    <circle cx="28" cy="68" r="24" stroke="#E2E8F0" stroke-width="8"/>
+    <circle cx="28" cy="68" r="7" fill="#E2E8F0" fill-opacity="0.25"/>
+    <text x="60" y="86" fill="#F8FAFC" font-family="Sora, Avenir Next, Segoe UI, Arial, sans-serif" font-size="84" font-weight="800" letter-spacing="-1.5">rridor</text>
+  </g>
+
+  <text x="60" y="304" fill="#93C5FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="44" font-weight="700">Run your payments in one place</text>
 </svg>

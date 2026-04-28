@@ -1,49 +1,65 @@
-<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1280" height="440" viewBox="0 0 1280 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Corridor Banner</title>
-  <desc id="desc">Corridor banner with balanced logo and refined background</desc>
+  <desc id="desc">Corridor banner with compact logo, full wordmark, strong tagline, and glass ring accent</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#070B14"/>
-      <stop offset="0.45" stop-color="#0C1730"/>
-      <stop offset="1" stop-color="#102447"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="440" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050912"/>
+      <stop offset="0.48" stop-color="#0A1731"/>
+      <stop offset="1" stop-color="#0E2A54"/>
     </linearGradient>
-    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 70) rotate(28) scale(360 180)">
-      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.34"/>
+    <radialGradient id="mistA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(300 80) rotate(18) scale(420 190)">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.35"/>
       <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1090 40) rotate(12) scale(360 220)">
-      <stop offset="0" stop-color="#60A5FA" stop-opacity="0.24"/>
-      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
+    <radialGradient id="mistB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(950 410) rotate(-14) scale(520 220)">
+      <stop offset="0" stop-color="#93C5FD" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#93C5FD" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="markBg" x1="76" y1="86" x2="240" y2="246" gradientUnits="userSpaceOnUse">
+    <linearGradient id="markBg" x1="78" y1="120" x2="166" y2="206" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0B1220"/>
       <stop offset="0.55" stop-color="#1D4ED8"/>
       <stop offset="1" stop-color="#0EA5E9"/>
     </linearGradient>
-    <linearGradient id="beam" x1="148" y1="112" x2="148" y2="202" gradientUnits="userSpaceOnUse">
+    <linearGradient id="beam" x1="118" y1="128" x2="118" y2="182" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.95"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.2"/>
     </linearGradient>
+    <radialGradient id="ringCore" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1290 214) rotate(90) scale(180 180)">
+      <stop offset="0" stop-color="#DBEAFE" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#DBEAFE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ringStroke" x1="1110" y1="26" x2="1370" y2="402" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#93C5FD" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#1D4ED8" stop-opacity="0.55"/>
+    </linearGradient>
+    <filter id="softBlur" x="1030" y="-30" width="360" height="500" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
   </defs>
 
-  <rect x="0" y="0" width="1280" height="360" rx="22" fill="url(#bg)"/>
-  <rect x="0" y="0" width="1280" height="360" rx="22" fill="url(#glowA)"/>
-  <rect x="0" y="0" width="1280" height="360" rx="22" fill="url(#glowB)"/>
+  <rect x="0" y="0" width="1280" height="440" rx="26" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1280" height="440" rx="26" fill="url(#mistA)"/>
+  <rect x="0" y="0" width="1280" height="440" rx="26" fill="url(#mistB)"/>
 
-  <g transform="translate(0 6)">
-    <rect x="68" y="82" width="166" height="166" rx="42" fill="url(#markBg)"/>
-    <path d="M185 114C175 106 162 100 148 100C121 100 100 121 100 148C100 175 121 196 148 196C163 196 175 190 185 182" stroke="white" stroke-width="21" stroke-linecap="round"/>
-    <rect x="136" y="113" width="8" height="82" rx="4" fill="url(#beam)"/>
-    <rect x="155" y="113" width="8" height="82" rx="4" fill="url(#beam)"/>
-    <path d="M145 194L149 128L153 194H145Z" fill="#E0F2FE"/>
-    <path d="M149 128L166 111L171 116L149 138L127 116L132 111L149 128Z" fill="white"/>
+  <g opacity="0.6" filter="url(#softBlur)">
+    <circle cx="1260" cy="214" r="128" stroke="#93C5FD" stroke-opacity="0.38" stroke-width="26"/>
+  </g>
+  <circle cx="1260" cy="214" r="122" fill="url(#ringCore)"/>
+  <circle cx="1260" cy="214" r="122" stroke="url(#ringStroke)" stroke-width="18"/>
+  <circle cx="1260" cy="214" r="88" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="6"/>
+
+  <g>
+    <rect x="70" y="116" width="92" height="92" rx="24" fill="url(#markBg)"/>
+    <path d="M137 133C131 128 123 125 115 125C100 125 88 137 88 152C88 167 100 179 115 179C124 179 131 176 137 171" stroke="white" stroke-width="12" stroke-linecap="round"/>
+    <rect x="108" y="134" width="5" height="46" rx="2.5" fill="url(#beam)"/>
+    <rect x="120" y="134" width="5" height="46" rx="2.5" fill="url(#beam)"/>
+    <path d="M114 178L116.5 142L119 178H114Z" fill="#E0F2FE"/>
+    <path d="M116.5 142L126 132.5L129 135.5L116.5 148L104 135.5L107 132.5L116.5 142Z" fill="white"/>
   </g>
 
-  <g transform="translate(250 72)">
-    <circle cx="25" cy="62" r="22" stroke="#E2E8F0" stroke-width="7"/>
-    <circle cx="25" cy="62" r="6.5" fill="#E2E8F0" fill-opacity="0.25"/>
-    <text x="56" y="79" fill="#F8FAFC" font-family="Sora, Avenir Next, Segoe UI, Arial, sans-serif" font-size="78" font-weight="800" letter-spacing="-1.4">rridor</text>
-  </g>
+  <text x="186" y="193" fill="#F8FAFC" font-family="Sora, Avenir Next, Segoe UI, Arial, sans-serif" font-size="92" font-weight="800" letter-spacing="-1.7">Corridor</text>
 
-  <text x="68" y="308" fill="#93C5FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="700">Run your payments in one place</text>
+  <text x="74" y="296" fill="#BFDBFE" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="56" font-weight="700">Run your payments in one place</text>
+  <text x="76" y="344" fill="#E2E8F0" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="500">Global rails for treasury, payroll, payouts, and programmable money flows</text>
 </svg>

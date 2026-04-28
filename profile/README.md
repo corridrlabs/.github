@@ -1,15 +1,17 @@
 # corridrlabs
 
+![Corridor banner](assets/corridor-banner.svg)
+
 Corridor open developer ecosystem.
 
 ## Core Repositories
-- `corridor-frontend`
-- `corridor-docs`
-- `corridor-docs-site`
-- `corridor-mcp`
-- `corridor-openapi`
-- SDK repos (`corridor-sdk-*`)
-- Plugin repos (`corridor-*-plugin`)
+- `frontend`
+- `docs`
+- `docs-site`
+- `mcp`
+- `openapi`
+- SDK repos (`sdk-*`)
+- Plugin repos (`*-plugin`)
 
 ## What we publish
 - SDKs and libraries

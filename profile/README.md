@@ -1,6 +1,6 @@
 # corridrlabs
 
-![Corridor banner](assets/corridor-banner.svg)
+[![Corridor banner](assets/corridor-banner.svg)](https://corridor-flax.vercel.app)
 
 **Corridor, the developers' financial cloud:** open tooling for global payments, treasury, payroll rails, and programmable money workflows.
 
